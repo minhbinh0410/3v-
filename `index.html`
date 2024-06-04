@@ -1,1 +1,96 @@
 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3V Group</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với 3V Group</h1>
+        <p>Chuyên cung cấp sàn nâng kỹ thuật, vách ngăn nhà vệ sinh và vách ngăn di động</p>
+    </header>
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Giới thiệu</h2>
+            <p>3V Group là công ty hàng đầu trong lĩnh vực cung cấp và lắp đặt sàn nâng kỹ thuật, vách ngăn nhà vệ sinh và vách ngăn di động. Với nhiều năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp, chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng và dịch vụ tốt nhất.</p>
+        </section>
+        <section id="products">
+            <h2>Sản phẩm</h2>
+            <div class="product">
+                <h3>Sàn nâng kỹ thuật</h3>
+                <p>Giải pháp tối ưu cho các công trình hiện đại, giúp quản lý cáp và hệ thống kỹ thuật dễ dàng hơn.</p>
+            </div>
+            <div class="product">
+                <h3>Vách ngăn nhà vệ sinh</h3>
+                <p>Cung cấp các loại vách ngăn chất lượng, đa dạng về mẫu mã, phù hợp với mọi không gian.</p>
+            </div>
+            <div class="product">
+                <h3>Vách ngăn di động</h3>
+                <p>Giải pháp linh hoạt cho không gian làm việc, hội nghị, giúp tối ưu hóa diện tích sử dụng.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Liên hệ</h2>
+            <p>Nếu bạn có bất kỳ thắc mắc nào hoặc cần tư vấn, xin vui lòng liên hệ với chúng tôi qua thông tin dưới đây:</p>
+            <ul>
+                <li>Email: info@3vgroup.com</li>
+                <li>Điện thoại: 0123 456 789</li>
+                <li>Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 3V Group. Bảo lưu mọi quyền.</p>
+    </footer>
+</body>
+</html>
